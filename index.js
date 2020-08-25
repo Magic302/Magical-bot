@@ -95,5 +95,5 @@ return message.channel.send(`Olá ${message.author}! Meu prefixo é \`n.\` \nQue
 
 
 
-client.login(`NzA1NDE2NDI4ODk0OTQ1MzAw.Xw-D0A.QP18M-DSbFmdD08f8ltunu1zCp4`); //Ligando o Bot caso ele consiga acessar o token
+client.login(process.env.token); //Ligando o Bot caso ele consiga acessar o token
  
